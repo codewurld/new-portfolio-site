@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /* Colors */
-    
+
     /* change favorite colors */
 
     --hue-color: 250 ;
@@ -177,6 +177,7 @@ img{
     color: var(--first-color);
 }
 
+/* view on smaller screen */
 @media screen and (max-width: 767px) {
     .nav_menu{
         position: fixed;
@@ -208,7 +209,6 @@ img{
     color: var(--first-color);
 }
 
-
 .nav_icon{
     font-size: 1.2rem;
 }
@@ -228,7 +228,7 @@ img{
 
 /* display menu */
 .display-menu{
-    bottom: 0
+    bottom: 0;
 }
 
 /* HOME SECTION STYLE */
@@ -339,7 +339,74 @@ display: none;
     align-items: center;
 }
 
+/* About Section */
+.about_img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
 
+.about_description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about_info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about_info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about_info-name{
+    font-size: var(--smaller-font-size);
+}
+
+.about_info-title,.about_info-name{
+    display: block;
+    text-align: center;
+}
+
+.about_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+/* Skills Section */
+.skills_container{
+    row-gap: 0;
+}
+
+.skills_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+
+.skills_icon,.skills_arrow{
+font-size: 2rem;
+color: var(--first-color);
+}
+
+.skills_icon{
+    margin-right: var(--mb-0-75);
+}
+
+.skills_title{
+    font-size: var(--h3-font-size);
+}
+
+.skills_subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
 
 
 
