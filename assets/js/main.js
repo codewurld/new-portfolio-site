@@ -1,3 +1,6 @@
+import Swiper from 'swiper/bundle';
+import 'swiper/swiper-bundle.css';
+
 // Display and hide menu
 
 const navMenu = document.getElementById('nav-menu'),
@@ -74,3 +77,17 @@ tabs.forEach(tab => {
         tab.classList.add('qualification_active')
     })
 })
+
+// Swiper Functions
+// let swiper = new Swiper('.portfolio-container', {
+//     cssMode: true,
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+//     pagination: {
+//         el: '.swiper-pagination'
+//     },
+//     mousewheel: true,
+//     keyboard: true,
+// })
