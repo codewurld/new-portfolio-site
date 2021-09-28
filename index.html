@@ -31,11 +31,6 @@
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#about" class="nav_link">
-                            <i class="uil uil-user nav_icon"></i> About
-                        </a>
-                    </li>
-                    <li class="nav_item">
                         <a href="#skills" class="nav_link">
                             <i class="uil uil-wrench nav_icon"></i> Skills
                         </a>
@@ -43,6 +38,11 @@
                     <li class="nav_item">
                         <a href="#portfolio" class="nav_link">
                             <i class="uil uil-eye nav_icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> About
                         </a>
                     </li>
                     <li class="nav_item">
@@ -316,106 +316,238 @@
             </div>
         </section>
 
-        <!-- Qualification -->
+        <!-- Qualification - Education-->
         <section class="qualification section">
             <h2 class="section_title">Qualifications</h2>
             <span class="section subtitle">My journey to date</span>
+
             <div class="qualification_container container">
                 <div class="qualification_tabs">
-                    <div class="qualification_button button--flex">
+                    <div class="qualification_button button--flex qualification_active" data-target="#education">
                         <i class="uil uil-graduation-cap qualification_icon"></i>Education
                     </div>
 
-                    <div class="qualification_button button--flex">
+                    <div class="qualification_button button--flex" data-target='#work'>
                         <i class="uil uil-suitcase-alt qualification_icon"></i>Career
+                    </div>
+                </div>
+
+                <div class="qualification_sections">
+
+                    <!-- Qualification Content 0 -->
+                    <div class="qualification_content qualification_active" data-content id="education">
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_circle"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Fullstack Coding Bootcamp</h3>
+                                <span class="qualification_subtitle">The School of Code, Birmingham UK</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>2021
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Qualification Content 1 -->
+                        <div class="qualification_content">
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">MSc. Marketing</h3>
+                                    <span class="qualification_subtitle">UCD Smurfit Business School, Dublin</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>2013-2014
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_circle"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Qualification Content 2 -->
+                        <div class="qualification_content">
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Post Grad Digital Media Production</h3>
+                                    <span class="qualification_subtitle">Technological University, Dublin</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>2012-2013
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_circle"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+
+                            <!-- Qualification Content 3 -->
+                            <div class="qualification_content">
+                                <div class="qualification_data">
+
+                                    <div></div>
+
+                                    <div>
+                                        <span class="qualification_circle"></span>
+                                        <!-- <span class="qualification_line"></span> -->
+                                    </div>
+
+                                    <div>
+                                        <h3 class="qualification_title">BSc. Marketing & Event Management</h3>
+                                        <span class="qualification_subtitle">Dublin Business School</span>
+                                        <div class="qualification_calendar">
+                                            <i class="uil uil-calendar-alt"></i>2008-2012
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
 
                     <div class="qualification_sections">
 
                         <!-- Qualification Content 0 -->
                         <div class="qualification_content">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Qualification - Work Experience-->
+
+                <!-- Qualification Content 0 -->
+                <div class="qualification_content" data-content id="career">
+                    <div class="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification_circle"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title">Software Engineer</h3>
+                            <span class="qualification_subtitle">The School of Code, Birmingham UK</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>2021
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Qualification Content 1 -->
+                    <div class="qualification_content">
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Marketing Consultant</h3>
+                                <span class="qualification_subtitle">The Pragma Group, London</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>2019-2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_circle"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Qualification Content 2 -->
+                    <div class="qualification_content">
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Professional Music Artist</h3>
+                                <span class="qualification_subtitle">Independent Label</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>2014-2019
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_circle"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Qualification Content 3 -->
+                        <div class="qualification_content">
                             <div class="qualification_data">
-                                <div></div>
+
+                                <div>
+                                    <h3 class="qualification_title">Marketing Executive</h3>
+                                    <span class="qualification_subtitle">SalonAddict Ltd, Dublin</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>2011-2011
+                                    </div>
+                                </div>
 
                                 <div>
                                     <span class="qualification_circle"></span>
-                                    <span class="qualification_line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification_title">Intensive Fullstack Coding Bootcamp</h3>
-                                    <span class="qualification_subtitle">The School of Code, Birmingham UK</span>
-                                    <div class="qualification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>2021
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- Qualification Content 0 -->
-                            <div class="qualification_content">
-                                <div class="qualification_data">
-                                    <div>
-                                        <h3 class="qualification_title">MSc. Marketing</h3>
-                                        <span class="qualification_subtitle">UCD Smurfit Business School, Dublin</span>
-                                        <div class="qualification_calendar">
-                                            <i class="uil uil-calendar-alt"></i>2013-2014
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <span class="qualification_circle"></span>
-                                        <span class="qualification_line"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Qualification Content 2 -->
-                            <div class="qualification_content">
-                                <div class="qualification_data">
-                                    <div>
-                                        <h3 class="qualification_title">Post Grad Digital Media Production</h3>
-                                        <span class="qualification_subtitle">Technological University, Dublin</span>
-                                        <div class="qualification_calendar">
-                                            <i class="uil uil-calendar-alt"></i>2012-2013
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <span class="qualification_circle"></span>
-                                        <span class="qualification_line"></span>
-                                    </div>
-                                </div>
-
-                                <!-- Qualification Content 3 -->
-                                <div class="qualification_content">
-                                    <div class="qualification_data">
-
-                                        <div></div>
-
-                                        <div>
-                                            <span class="qualification_circle"></span>
-                                            <!-- <span class="qualification_line"></span> -->
-                                        </div>
-                                        <div>
-                                            <h3 class="qualification_title">BSc. Marketing & Event Management</h3>
-                                            <span class="qualification_subtitle">Dublin Business School</span>
-                                            <div class="qualification_calendar">
-                                                <i class="uil uil-calendar-alt"></i>2008-2012
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
         </section>
 
+        <!-- Portfolio Secion  -->
 
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Recent Projects</span>
 
+            <div class="portfolio_container container">
+                <div>
+                    <!-- Portfolio 1 -->
+                    <div class="portoflio_content grid">
+                        <img src="assets/img/flexercise_guy.png" alt="Screenshot of Flexercise Project">
+
+                        <div class="portofolio_data">
+                            <h3 class="portfolio_title">Flexercise Fitness App</h3>
+                            <p class="portfolio_description">
+                                Web app built to solve the problem of young adults not getting enough exercise.
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- Portfolio 2 -->
+                    <div class="portoflio_content grid">
+                        <img src="assets/img/nutri_glow.png" alt="Screenshot of Flexercise Project">
+
+                        <div class="portofolio_data">
+                            <h3 class="portfolio_title">NutriGlow (Pregnancy Nutrition App)</h3>
+                            <p class="portfolio_description">
+                                Web app built for a NHS affiliated client to guide people on a motherhood journey
+                                towards a healthy balanced diet and lifestyle.
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 

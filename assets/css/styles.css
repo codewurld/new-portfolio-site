@@ -443,3 +443,85 @@ margin-bottom: var(--mb-2-5);
 .skills_open .skills_arrow{
     transform: rotate(-180deg)
 }
+
+/* Qualification */
+.qualification_tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification_button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.qualification_button:hover{
+    color: var(--first-color);
+}
+
+.qualification_icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+/* fr takes a fraction of the space available in the grid */
+/* grid-template-columns sets nos. of columns and size */
+.qualification_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification_subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualification_calendar{
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.qualification_circle{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
+
+.qualification_line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+    transform: translate(6px, -7px);
+}
+
+/* square brackets matches qualification elements with value of data-content attribute  */
+.qualification [data-content]{
+    display: none;
+}
+
+.qualification_active[data-content]{
+    display: block;
+}
+
+.qualification_button.qualification_active{
+    color: var(--first-color);
+}
+
+
+
+
+
+
+
